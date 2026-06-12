@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # ¡Hola! Soy Kevin López 🛡️✨
 
 ¡Bienvenido a mi portafolio de Ciberseguridad! Soy **Ingeniero en Redes de Telecomunicaciones** y actualmente estoy cursando un **Máster en Ciberseguridad**. Mi enfoque profesional está completamente orientado a la seguridad defensiva (**Blue Team**), el análisis de seguridad (SOC) y la arquitectura de redes seguras.
