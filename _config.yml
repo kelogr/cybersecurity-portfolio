@@ -6,7 +6,7 @@ tagline: Telecommunications Engineer & Cybersecurity Master Student
 description: Portafolio profesional de ciberseguridad enfocado en Blue Team, fortificación de redes y análisis de amenazas.
 
 # Configuración de URLs para GitHub Pages (Cambia esto con tus datos reales)
-url: "https://kelogr.github.io/"
+url: "https://kelogr.github.io"
 baseurl: "/cybersecurity-portfolio" # Ejemplo: /portfolio-ciberseguridad (Debe llevar la barra inicial)
 
 # ------------------------------------------------------------------------------
