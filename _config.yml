@@ -1,0 +1,6 @@
+title: Kevin López | Portfolio de Ciberseguridad
+description: Espacio dedicado a write-ups, laboratorios de redes y análisis de amenazas.
+theme: minima # Este es un tema limpio y nativo soportado por GitHub
+
+# Opcional si quieres usar carpetas con guiones bajos o configuraciones extra
+permalink: /:categories/:title/
