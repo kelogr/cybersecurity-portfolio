@@ -8,19 +8,29 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 
 ## 🚀 Sobre Mí
 
-- 🎓 **Educación:** - Máster en Ciberseguridad (En curso)
+- 🎓 **Educación:** 
+  - Máster en Ciberseguridad (En curso)
   - Grado en Ingeniería en Redes de Telecomunicaciones (UPF)
 - 🎯 **Áreas de Interés:** Operaciones de SOC, Análisis de Vulnerabilidades, Hardening de Sistemas, Seguridad Cloud y Monitorización de Redes.
 - 🌍 **Idiomas:** Castellano (Nativo), Catalán (Nativo), Inglés (B1).
 
 ---
 
+## 📊 Matriz de Proyectos y Actividades
+
+| Categoría / Asignatura | Actividad / Lab | Herramientas | Nivel | Documentación |
+| :--- | :--- | :--- | :--- | :--- |
+| **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](./Academic_Projects/Redes_y_Analisis_Amenazas/Actividad_1_Mecanismos_Defensa/) |
+
+
+
+
 ## 🛠️ Habilidades Técnicas
 
 | Categoría | Tecnologías y Conceptos |
 | :--- | :--- |
 | **Seguridad e Infraestructura** | Firewalls (iptables), Active Directory (GPOs), Hardening de sistemas, Criptografía Aplicada, TCP/IP. |
-| **Herramientas de Ciberseguridad**| Wireshark, Nmap, OWASP ZAP, Snort (IDS/IPS), Cisco Packet Tracer. |
+| **Herramientas de Ciberseguridad**| Wireshark/TCPdump, Nmap, OWASP ZAP, Snort (IDS/IPS), Cisco Packet Tracer. |
 | **Cloud & DevOps** | Microsoft Azure, Docker, Git / GitHub. |
 | **Lenguajes y Estándares** | Python, PHP, JavaScript, SQL (MySQL). |
 
