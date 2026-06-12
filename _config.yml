@@ -1,6 +1,41 @@
-title: Kevin López | Portfolio de Ciberseguridad
-description: Espacio dedicado a write-ups, laboratorios de redes y análisis de amenazas.
-theme: minima # Este es un tema limpio y nativo soportado por GitHub
+# ------------------------------------------------------------------------------
+# Configuración General del Sitio
+# ------------------------------------------------------------------------------
+title: Kevin López Granado
+tagline: Telecommunications Engineer & Cybersecurity Master Student
+description: Portafolio profesional de ciberseguridad enfocado en Blue Team, fortificación de redes y análisis de amenazas.
 
-# Opcional si quieres usar carpetas con guiones bajos o configuraciones extra
-permalink: /:categories/:title/
+# Configuración de URLs para GitHub Pages (Cambia esto con tus datos reales)
+url: "https://kelogr.github.io/"
+baseurl: "/cybersecurity-portfolio" # Ejemplo: /portfolio-ciberseguridad (Debe llevar la barra inicial)
+
+# ------------------------------------------------------------------------------
+# Configuración del Tema e Identidad
+# ------------------------------------------------------------------------------
+theme: jekyll-theme-chirpy
+
+author:
+  name: Kevin López Granado
+  github: kelogr
+  linkedin: https://linkedin.com/in/kevinlopezgranado
+
+# Opciones de Interfaz de Chirpy
+theme_mode: dark             # Fuerza el modo oscuro por defecto
+toc: true                    # Activa de forma automática el índice (Table of Contents) en tus write-ups
+avatar: 'https://github.com/kelogr.png' # Saca tu foto de perfil de GitHub de forma dinámica
+
+# ------------------------------------------------------------------------------
+# Plugins y Configuración Interna
+# ------------------------------------------------------------------------------
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-reading-time
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+paginate: 10
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
