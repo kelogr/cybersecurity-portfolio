@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Home
+layout: page
+title: Inicio
 ---
 
 # ¡Hola! Soy Kevin López 🛡️✨
