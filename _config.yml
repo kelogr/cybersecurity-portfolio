@@ -5,24 +5,26 @@ title: Kevin López Granado
 tagline: Telecommunications Engineer & Cybersecurity Master Student
 description: Portafolio profesional de ciberseguridad enfocado en Blue Team, fortificación de redes y análisis de amenazas.
 
-# Configuración de URLs para GitHub Pages (Cambia esto con tus datos reales)
+# Configuración de URLs para GitHub Pages
 url: "https://kelogr.github.io"
-baseurl: "/cybersecurity-portfolio" # Ejemplo: /portfolio-ciberseguridad (Debe llevar la barra inicial)
+baseurl: "/cybersecurity-portfolio"
 
 # ------------------------------------------------------------------------------
 # Configuración del Tema e Identidad
 # ------------------------------------------------------------------------------
 theme: jekyll-theme-chirpy
 
+# Mapeo oficial de autor y redes sociales para la barra lateral de Chirpy
 author:
   name: Kevin López Granado
+  twitter: 
   github: kelogr
-  linkedin: https://linkedin.com/in/kevinlopezgranado
+  linkedin: kevinlopezgranado # Aquí solo se pone el ID del final, Chirpy monta la URL solo
 
 # Opciones de Interfaz de Chirpy
 theme_mode: dark             # Fuerza el modo oscuro por defecto
-toc: true                    # Activa de forma automática el índice (Table of Contents) en tus write-ups
-avatar: 'https://github.com/kelogr.png' # Saca tu foto de perfil de GitHub de forma dinámica
+toc: true                    # Activa de forma automática el índice (Table of Contents)
+avatar: 'https://github.com/kelogr.png' # Tu foto de perfil de GitHub dinámica
 
 # ------------------------------------------------------------------------------
 # Plugins y Configuración Interna
