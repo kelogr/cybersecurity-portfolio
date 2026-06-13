@@ -43,3 +43,15 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: /posts/:title/
+
+tabs:
+  - name: Academic Projects
+    url: /tabs/academic-projects/
+  - name: Lab Writeups
+    url: /tabs/lab-writeups/
+  - name: Certifications
+    url: /tabs/certifications/
+  - name: Courses
+    url: /tabs/courses/
+  - name: Curriculum
+    url: /tabs/curriculum/

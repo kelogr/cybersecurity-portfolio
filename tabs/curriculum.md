@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Curriculum
+permalink: /tabs/curriculum/
 icon: fas fa-file-pdf
 order: 5
 ---
