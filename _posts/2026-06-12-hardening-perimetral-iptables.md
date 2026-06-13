@@ -3,7 +3,7 @@ layout: post
 title: Hardening Perimetral con Iptables
 date: 2026-06-12 12:00:00 +0200
 categories: [Academico, Analisis de Amenazas]
-tags: [iptables, firewall]
+tags: [iptables, firewall, academic]
 ---
 
 # Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ
