@@ -6,7 +6,7 @@ categories: [Academico, Analisis de Amenazas]
 tags: [iptables, firewall, academic]
 ---
 
-# Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ
+# 🛡️ Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ
 
 | Campo | Descripción |
 | :--- | :--- |
@@ -17,7 +17,7 @@ tags: [iptables, firewall, academic]
 
 ---
 
-## Hardening Perimetral en Redes Multizona - [ACADEMIC - Intermediate]
+## 🛡️ Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ - [ACADEMIC - Intermediate]
 
 ### 🎯 Objetivo
 
