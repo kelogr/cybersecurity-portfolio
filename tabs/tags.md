@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lab Writeups
-permalink: /tabs/lab-writeups/
+permalink: /tags/
 icon: fas fa-flask
 order: 2
 ---
