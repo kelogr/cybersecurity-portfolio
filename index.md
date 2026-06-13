@@ -27,8 +27,8 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 | :--- | :--- | :--- | :--- | :--- |
 | **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/hardening-perimetral-iptables/) |
 | **Análisis de Amenazas** | Network IDS Deployment & Custom Rule Engineering with Snort | `Snort`, `Netcat`, `Iptables`, `NETinVM` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/ids-snort/) |
-| **Seguridad Web** | bWAPP Web Vulnerability Assessment & Defensive Analysis | `bWAPP`, `Bee-Box`, `Burp Suite`, `PHP`, `MySQL` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/posts/web-vuln-assessment/) |
-| **Análisis de Amenazas** | Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark | `Nmap`, `Wireshark`, `Samba`, `ProFTPD`, `UnrealIRCd` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/posts/nmap-wireshark-reconnaissance/) |
+| **Seguridad Web** | bWAPP Web Vulnerability Assessment & Defensive Analysis (OWASP Top 10) | `bWAPP`, `Bee-Box`, `Burp Suite`, `PHP`, `MySQL` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/posts/bwapp-web-assessment/) |
+| **Seguridad en Redes** | Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark | `Nmap`, `Wireshark`, `Samba`, `ProFTPD`, `UnrealIRCd` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/posts/nmap-wireshark-reconnaissance/) |
 | **Penetration Testing** | Elasticsearch Remote Code Execution & Post-Exploitation with Metasploit | `Metasploit`, `Meterpreter`, `Elasticsearch`, `Nmap` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/elasticsearch-exploitation-metasploit/) |
 ---
 
