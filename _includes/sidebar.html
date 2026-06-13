@@ -1,0 +1,67 @@
+<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+  <header class="profile-wrapper">
+    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+      {% if site.avatar %}
+        <img src="{{ site.avatar | relative_url }}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+      {% endif %}
+    </a>
+
+    <h1 class="site-title">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </h1>
+    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+  </header>
+
+  <nav class="nav-sidebar flex-column w-100 flex-grow-1" style="margin-top: 2rem;">
+    
+    <a href="{{ '/' | relative_url }}" class="nav-link d-flex align-items-center {% if page.url == '/' %}active{% endif %}" style="padding: 0.5rem 1.5rem; color: var(--sidebar-muted-color);">
+      <i class="fas fa-home fa-fw me-2" style="font-size: 1.1rem;"></i>
+      <span>HOME</span>
+    </a>
+
+    <a href="{{ '/tabs/academic-projects/' | relative_url }}" class="nav-link d-flex align-items-center {% if page.url contains 'academic-projects' %}active{% endif %}" style="padding: 0.5rem 1.5rem; color: var(--sidebar-muted-color);">
+      <i class="fas fa-graduation-cap fa-fw me-2" style="font-size: 1.1rem;"></i>
+      <span>Academic Projects</span>
+    </a>
+
+    <a href="{{ '/tabs/lab-writeups/' | relative_url }}" class="nav-link d-flex align-items-center {% if page.url contains 'lab-writeups' %}active{% endif %}" style="padding: 0.5rem 1.5rem; color: var(--sidebar-muted-color);">
+      <i class="fas fa-flask fa-fw me-2" style="font-size: 1.1rem;"></i>
+      <span>Lab Writeups</span>
+    </a>
+
+    <a href="{{ '/tabs/certifications/' | relative_url }}" class="nav-link d-flex align-items-center {% if page.url contains 'certifications' %}active{% endif %}" style="padding: 0.5rem 1.5rem; color: var(--sidebar-muted-color);">
+      <i class="fas fa-certificate fa-fw me-2" style="font-size: 1.1rem;"></i>
+      <span>Certifications</span>
+    </a>
+
+    <a href="{{ '/tabs/courses/' | relative_url }}" class="nav-link d-flex align-items-center {% if page.url contains 'courses' %}active{% endif %}" style="padding: 0.5rem 1.5rem; color: var(--sidebar-muted-color);">
+      <i class="fas fa-book fa-fw me-2" style="font-size: 1.1rem;"></i>
+      <span>Courses</span>
+    </a>
+
+    <a href="{{ '/tabs/curriculum/' | relative_url }}" class="nav-link d-flex align-items-center {% if page.url contains 'curriculum' %}active{% endif %}" style="padding: 0.5rem 1.5rem; color: var(--sidebar-muted-color);">
+      <i class="fas fa-file-pdf fa-fw me-2" style="font-size: 1.1rem;"></i>
+      <span>Curriculum</span>
+    </a>
+
+  </nav>
+
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
+    {% unless site.theme_mode %}
+      <button type="button" class="mode-toggle btn" aria-label="Switch Mode">
+        <i class="fas fa-adjust"></i>
+      </button>
+      {% if site.data.contact %}
+        <span class="icon-border"></span>
+      {% endif %}
+    {% endunless %}
+
+    {% if site.data.contact %}
+      {% for entry in site.data.contact %}
+        {% case entry.type %}
+          {% when 'github', 'twitter', 'email' %}
+            {% endcase %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</aside>
