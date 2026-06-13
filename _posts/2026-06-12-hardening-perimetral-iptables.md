@@ -12,7 +12,7 @@ tags: [iptables, firewall]
 | :--- | :--- |
 | **Tecnologías / Herramientas** | Linux Iptables, NETinVM, Netcat (`nc`), KWrite  |
 | **Tags / Keywords** | #FirewallHardening, #Iptables, #DMZ-Isolation, #NetworkSecurity, #BlueTeam |
-| **Categorías** | Análisis de Amenazas |
+| **Categorías** | Análisis de Amenazas, Seguridad en Redes |
 | **Autor** | Kevin López Granado  |
 
 ---
@@ -34,7 +34,7 @@ El cortafuegos central (`fw`) interconecta los segmentos utilizando tres interfa
 * **`eth1`**: Interfaz conectada a la DMZ (IP: `10.5.1.254`).
 * **`eth2`**: Interfaz conectada a la red interna corporativa (IP: `10.5.2.254`).
 
-![alt text](/assets/img/posts/hardening_perimetral/image.png)
+![Diseño arquitectura de tres legados](/assets/img/posts/hardening_perimetral/image.png)*Figura 1: Diseño arquitectura de tres legados.*
 
 ---
 
