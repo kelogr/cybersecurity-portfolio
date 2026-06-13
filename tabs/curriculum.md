@@ -8,16 +8,16 @@ order: 5
 
 <div class="text-center" style="margin: 1.5rem 0 2.5rem 0;">
   <h1 style="font-weight: 800; margin-bottom: 0.5rem; letter-spacing: -1px;">Kevin López Granado</h1>
-  <p class="text-primary" style="font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem;">
+  <p class="text-primary" style="font-size: 1.3rem; font-weight: 600; margin-bottom: 0.3rem;">
     Cybersecurity Engineer & Blue Team Specialist
   </p>
-  <p class="text-muted" style="font-size: 1rem; font-style: italic; margin-top: 0;">
+  <p class="text-muted" style="font-size: 1rem; font-style: italic; margin-bottom: 1.2rem;">
     Telecommunications Engineer | Master in Cybersecurity Student
   </p>
-  <div class="d-flex justify-content-center flex-wrap gap-3" style="font-size: 0.95rem; margin-top: 1rem;">
-    <span><i class="fas fa-envelope text-primary me-1"></i> kevin.lopez.granado@hotmail.com</span>
-    <span><i class="fab fa-linkedin text-primary me-1"></i> [LinkedIn](https://linkedin.com/in/kevinlopezgranado)</span>
-    <span><i class="fas fa-map-marker-alt text-primary me-1"></i> Barcelona, España</span>
+  <div style="font-size: 0.95rem; line-height: 1.8;">
+    <div><i class="fas fa-envelope text-primary me-2"></i> kevin.lopez.granado@hotmail.com</div>
+    <div><i class="fab fa-linkedin text-primary me-2"></i> [linkedin.com/in/kevinlopezgranado](https://linkedin.com/in/kevinlopezgranado)</div>
+    <div><i class="fas fa-map-marker-alt text-primary me-2"></i> Barcelona, España</div>
   </div>
 </div>
 
@@ -87,7 +87,7 @@ order: 5
 ## 📜 Certificaciones e Idiomas
 
 ### **Certificaciones Oficiales**
-* [**Microsoft Certified: Azure Fundamentals (AZ-900)**](/tabs/az-900/) — *Microsoft* `[Activa - Ver Detalles en Portfolio]`
+* [**Microsoft Certified: Azure Fundamentals (AZ-900)**](/tabs/az-900.md) — *Microsoft* `[Activa - Ver Detalles en Portfolio]`
 * **Google Cybersecurity Professional Certificate** — *Google* `[En preparación - Finalización Julio 2026]`
 * **CompTIA Security+ (SY0-701)** — *CompTIA* `[En preparación - Examen Agosto 2026]`
 * **Microsoft Security Operations Analyst (SC-200)** — *Microsoft* `[En preparación - Examen 18 Octubre 2026]`
