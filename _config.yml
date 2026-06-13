@@ -43,9 +43,3 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: /posts/:title/
-
-tabs:
-  - name: Courses
-    url: /tabs/courses/
-  - name: Curriculum
-    url: /tabs/curriculum/
