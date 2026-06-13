@@ -3,10 +3,10 @@ layout: post
 title: bWAPP Web Vulnerability Assessment & Defensive Analysis
 date: 2026-06-13 17:00:00 +0200
 categories: [academico, cybersecurity, web-security]
-tags: [academic, writeup, owasp, sql-injection, xss, csrf]
+tags: [academic, owasp, sql-injection, xss, csrf]
 ---
 
-# 🛡️ bWAPP Web Vulnerability Assessment & Defensive Analysis
+# ⚔️ bWAPP Web Vulnerability Assessment & Defensive Analysis
 
 | Campo                          | Descripción                                                                                                 |
 | :----------------------------- | :---------------------------------------------------------------------------------------------------------- |
@@ -17,7 +17,7 @@ tags: [academic, writeup, owasp, sql-injection, xss, csrf]
 
 ---
 
-## bWAPP Web Vulnerability Assessment & Defensive Analysis - [ACADEMIC / LAB - Beginner]
+## ⚔️ bWAPP Web Vulnerability Assessment & Defensive Analysis - [ACADEMIC / LAB - Beginner]
 
 ### 🎯 Objetivo
 

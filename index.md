@@ -30,6 +30,7 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 | **Seguridad Web** | bWAPP Web Vulnerability Assessment & Defensive Analysis (OWASP Top 10) | `bWAPP`, `Bee-Box`, `Burp Suite`, `PHP`, `MySQL` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/posts/bwapp-web-assessment/) |
 | **Seguridad en Redes** | Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark | `Nmap`, `Wireshark`, `Samba`, `ProFTPD`, `UnrealIRCd` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/posts/nmap-wireshark-reconnaissance/) |
 | **Penetration Testing** | Elasticsearch Remote Code Execution & Post-Exploitation with Metasploit | `Metasploit`, `Meterpreter`, `Elasticsearch`, `Nmap` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/elasticsearch-exploitation-metasploit/) |
+| **Infraestructura** | Hardening de Active Directory siguiendo Guías CCN-STIC (ENS) | `Windows Server`, `AD`, `GPO`, `CCN-STIC` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/hardening-ad-ccn-stic/) |
 ---
 
 ## 🛠️ Habilidades Técnicas
