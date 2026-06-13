@@ -26,8 +26,7 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 | :--- | :--- | :--- | :--- | :--- |
 | **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](./Academic_Projects/Redes_y_Analisis_Amenazas/Actividad_1_Mecanismos_Defensa/) |
 
-
-
+---
 
 ## 🛠️ Habilidades Técnicas
 
@@ -48,14 +47,6 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 ### En Preparación (Hoja de Ruta) 🚀
 - ⏳ **CompTIA Security+** *(¡Próximamente!)*
 - ⏳ **HTB Certified Junior Cybersecurity Analyst (CJCA)**
-
----
-
-## 📁 Mis Laboratorios y Proyectos (Próximamente)
-
-*Esta sección se irá actualizando a medida que documente mis entornos de práctica.*
-
-* **[Lab 01: Análisis de Tráfico con Wireshark]** -> *(Próximamente)* Análisis de capturas de red, detección de anomalías y escaneos de puertos.
 
 ---
 
