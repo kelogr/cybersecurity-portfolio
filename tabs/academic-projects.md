@@ -6,13 +6,11 @@ icon: fas fa-graduation-cap
 order: 1
 ---
 
-Aquí encontrarás mis reportes y publicaciones académicas.
+En esta sección se incluyen todos mis reportes, publicaciones y proyectos académicos desarrollados durante mi formación superior y especializaciones.
 
-## Reportes Disponibles
-<ul>
-  {% for post in site.tags.academic %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
-    </li>
-  {% endfor %}
-</ul>
+## Proyectos Disponibles
+
+| Proyecto | Fecha de Publicación |
+| :--- | :--- |
+{% for post in site.tags.academic %}| [{{ post.title }}]({{ post.url | relative_url }}) | {{ post.date | date: "%d/%m/%Y" }} |
+{% endfor %}
