@@ -1,3 +1,10 @@
+---
+layout: page
+title: Hardening Perimetral con Iptables
+categories: [Análisis de Amenazas]
+tags: [Linux Iptables, Firewall, Network-security]
+---
+
 # Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ
 
 | Campo | Descripción |
