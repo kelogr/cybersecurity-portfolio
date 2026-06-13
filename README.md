@@ -25,6 +25,8 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 | Categoría / Asignatura | Actividad / Lab | Herramientas | Nivel | Documentación |
 | :--- | :--- | :--- | :--- | :--- |
 | **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](./Academic_Projects/Redes_y_Analisis_Amenazas/Actividad_1_Mecanismos_Defensa/) |
+| **Análisis de Amenazas** | Network IDS Deployment & Custom Rule Engineering with Snort | `Snort`, `Netcat`, `Iptables`, `NETinVM` | Intermediate | [📄 Ver Lab]() |
+| **Seguridad Web** | bWAPP Web Vulnerability Assessment & Defensive Analysis | `bWAPP`, `Bee-Box`, `Burp Suite`, `PHP`, `MySQL` | Beginner | [📄 Ver Lab]() |
 
 ---
 
