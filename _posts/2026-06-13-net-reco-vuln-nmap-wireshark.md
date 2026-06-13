@@ -3,7 +3,7 @@ layout: post
 title: Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark
 date: 2026-06-13 17:00:00 +0200
 categories: [academico, cybersecurity, network-security]
-tags: [academic, writeup, nmap, wireshark, reconnaissanc]
+tags: [academic, nmap, wireshark, reconnaissanc]
 ---
 
 # 🛡️ Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark
@@ -17,7 +17,7 @@ tags: [academic, writeup, nmap, wireshark, reconnaissanc]
 
 ---
 
-## Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark - [ACADEMIC / LAB - Beginner]
+## 🛡️ Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark - [ACADEMIC / LAB - Beginner]
 
 ### 🎯 Objetivo
 

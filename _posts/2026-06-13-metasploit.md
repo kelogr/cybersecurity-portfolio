@@ -3,7 +3,7 @@ layout: post
 title: Elasticsearch Remote Code Execution & Post-Exploitation with Metasploit
 date: 2026-06-11 19:00:00 +0200
 categories: [Cybersecurity, Penetration Testing]
-tags: [academic, writeup, nmap, metasploit, elasticsearch, windows-server]
+tags: [academic, nmap, metasploit, elasticsearch, windows-server]
 ---
 
 # ⚔️ Elasticsearch Remote Code Execution & Post-Exploitation with Metasploit
