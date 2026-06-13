@@ -3,7 +3,7 @@ layout: post
 title: Hardening de Active Directory en Windows Server 2022 siguiendo Guías CCN-STIC (ENS)
 date: 2026-06-10 16:00:00 +0200
 categories: [Cybersecurity, Infrastructure Security]
-tags: [academic, writeup, windows-server, active-directory, hardening, ccn-stic]
+tags: [academic, windows-server, active-directory, hardening, ccn-stic]
 ---
 
 ## 🛡️ Hardening de Active Directory en Windows Server 2022 siguiendo Guías CCN-STIC (ENS)

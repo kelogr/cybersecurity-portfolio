@@ -23,6 +23,8 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 
 ## 📊 Matriz de Proyectos y Actividades
 
+## 📊 Matriz de Proyectos y Actividades
+
 | Categoría / Asignatura | Actividad / Lab | Herramientas | Nivel | Documentación |
 | :--- | :--- | :--- | :--- | :--- |
 | **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/hardening-perimetral-iptables/) |
@@ -31,6 +33,7 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 | **Seguridad en Redes** | Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark | `Nmap`, `Wireshark`, `Samba`, `ProFTPD`, `UnrealIRCd` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/posts/nmap-wireshark-reconnaissance/) |
 | **Penetration Testing** | Elasticsearch Remote Code Execution & Post-Exploitation with Metasploit | `Metasploit`, `Meterpreter`, `Elasticsearch`, `Nmap` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/elasticsearch-exploitation-metasploit/) |
 | **Infraestructura** | Hardening de Active Directory siguiendo Guías CCN-STIC (ENS) | `Windows Server`, `AD`, `GPO`, `CCN-STIC` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/hardening-ad-ccn-stic/) |
+
 ---
 
 ## 🛠️ Habilidades Técnicas
