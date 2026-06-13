@@ -10,14 +10,14 @@ tags: [academic, writeup, nmap, wireshark, reconnaissanc]
 
 | Campo                          | Descripción                                                                                                 |
 | :----------------------------- | :---------------------------------------------------------------------------------------------------------- |
-| **Tecnologías / Herramientas** | Nmap, Wireshark, Kali Linux, Samba, ProFTPD, UnrealIRCd                                                                 |
+| **Tecnologías / Herramientas** | Nmap, Wireshark, Kali Linux, Samba, ProFTPD, UnrealIRCd                                                     |
 | **Tags / Keywords**            | #Nmap #Wireshark #Reconnaissance #VulnerabilityAssessment #CVE #BlueTeam #NetworkSecurity                   |
 | **Categorías**                 | Análisis de Amenazas / Seguridad en Redes                                                                   |
 | **Autor**                      | Kevin López Granado                                                                                         |
 
 ---
 
-## bWAPP Web Vulnerability Assessment & Defensive Analysis - [ACADEMIC / LAB - Beginner]
+## Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark - [ACADEMIC / LAB - Beginner]
 
 ### 🎯 Objetivo
 
