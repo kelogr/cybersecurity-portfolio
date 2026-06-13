@@ -25,7 +25,7 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 
 | Categoría / Asignatura | Actividad / Lab | Herramientas | Nivel | Documentación |
 | :--- | :--- | :--- | :--- | :--- |
-| **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](/posts/2026-06-12-hardening-perimetral-iptables.md) |
+| **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/hardening-perimetral-iptables/) |
 
 ---
 
