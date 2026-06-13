@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Academic Reports
+title: Academic Projects
+permalink: /tabs/academic-projects/
 icon: fas fa-graduation-cap
-order: 2
+order: 1
 ---
-
 Aquí encontrarás mis reportes y publicaciones académicas.
 
 ## Reportes Disponibles

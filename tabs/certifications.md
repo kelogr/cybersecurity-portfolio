@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Certifications
+permalink: /tabs/certifications/
 icon: fas fa-certificate
 order: 3
 ---
