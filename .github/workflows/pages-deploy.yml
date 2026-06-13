@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5 # Actualizado a v5 para soporte nativo moderno
 
       - name: Setup Ruby
         uses: actions/setup-ruby@v1
@@ -56,6 +56,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4 # Versión v4 con soporte Node.js actualizado
         with:
           preview: false
