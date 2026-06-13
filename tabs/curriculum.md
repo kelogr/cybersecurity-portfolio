@@ -86,7 +86,7 @@ order: 5
 ## 📜 Certificaciones e Idiomas
 
 ### **Certificaciones Oficiales**
-* [**Microsoft Certified: Azure Fundamentals (AZ-900)**](/cybersecurity-portfolio/tabs/az-900.md) — *Microsoft* `[Activa - Ver Detalles en Portfolio]`
+* [**Microsoft Certified: Azure Fundamentals (AZ-900)**](az-900.md) — *Microsoft* `[Activa - Ver Detalles en Portfolio]`
 * **Google Cybersecurity Professional Certificate** — *Google* `[En preparación - Finalización Julio 2026]`
 * **CompTIA Security+ (SY0-701)** — *CompTIA* `[En preparación - Examen Agosto 2026]`
 * **Microsoft Security Operations Analyst (SC-200)** — *Microsoft* `[En preparación - Examen 18 Octubre 2026]`
