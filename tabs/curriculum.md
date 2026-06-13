@@ -32,8 +32,7 @@ order: 5
 ## 🎯 Perfil Profesional
 
 > ### ⚡ Analista e Ingeniero de Seguridad Defensiva
-> Profesional de la **Ciberseguridad Defensiva (Blue Team)** con una sólida formación como **Ingeniero en Redes de Telecomunicaciones**. Especializado en la monitorización de entornos críticos, ingeniería de detecciones y el despliegue de sistemas de detección/prevención de intrusos (IDS/IPS, Snort). Cuento con experiencia técnica contrastada en el análisis de telemetría de red y logs para identificar vectores de ataque, así como en la aplicación de controles de desarrollo seguro (SSDLC) y hardening de sistemas orientados a la reducción activa de la superficie de ataque y la mitigación de incidentes.
-> 
+> Profesional de la **Ciberseguridad Defensiva (Blue Team)** con una sólida formación como **Ingeniero en Redes de Telecomunicaciones**. Especializado en la monitorización de entornos críticos, ingeniería de detecciones y el despliegue de sistemas de detección/prevención de intrusos (IDS/IPS, Snort). Cuento con experiencia técnica contrastada en el análisis de telemetría de red y logs para identificar vectores de ataque, así como en la aplicación de controles de desarrollo seguro (SSDLC) y hardening de sistemas orientados a la reducción activa de la superficie de ataque y la mitigación de incidentes.<br> 
 > Aporto un perfil transversal idóneo para entornos de **Operaciones de Seguridad (SOC)** e **Ingeniería de Seguridad**, combinando la ingeniería de detecciones y la monitorización de amenazas con una profunda capacidad analítica para procesos de auditoría técnica, gestión de riesgos y cumplimiento regulatorio (*Compliance*).
 ---
 
@@ -87,7 +86,7 @@ order: 5
 ## 📜 Certificaciones e Idiomas
 
 ### **Certificaciones Oficiales**
-* [**Microsoft Certified: Azure Fundamentals (AZ-900)**](/tabs/az-900.md) — *Microsoft* `[Activa - Ver Detalles en Portfolio]`
+* [**Microsoft Certified: Azure Fundamentals (AZ-900)**](/cybersecurity-portfolio/tabs/az-900.md) — *Microsoft* `[Activa - Ver Detalles en Portfolio]`
 * **Google Cybersecurity Professional Certificate** — *Google* `[En preparación - Finalización Julio 2026]`
 * **CompTIA Security+ (SY0-701)** — *CompTIA* `[En preparación - Examen Agosto 2026]`
 * **Microsoft Security Operations Analyst (SC-200)** — *Microsoft* `[En preparación - Examen 18 Octubre 2026]`
