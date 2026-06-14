@@ -32,6 +32,7 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 | **Penetration Testing** | Elasticsearch Remote Code Execution & Post-Exploitation with Metasploit | `Metasploit`, `Meterpreter`, `Elasticsearch`, `Nmap` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/metasploit/) |
 | **Infraestructura** | Hardening de Active Directory siguiendo Guías CCN-STIC (ENS) | `Windows Server`, `AD`, `GPO`, `CCN-STIC` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/posts/hardening/) |
 | **Análisis de Vulnerabilidades** | Detección y Análisis de Vulnerabilidades en Software de Terceros | `OWASP Dependency-Check`, `CVE`, `NVD` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/posts/owasp-dc/) |
+
 ---
 
 ## 🛠️ Habilidades Técnicas
