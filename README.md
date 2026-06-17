@@ -18,6 +18,8 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 
 ## 📊 Matriz de Proyectos y Actividades
 
+| Categoría / Asignatura | Actividad / Lab | Herramientas | Nivel | Documentación |
+| :--- | :--- | :--- | :--- | :--- |
 | **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/hardening-perimetral-iptables/) |
 | **Análisis de Amenazas** | Network IDS Deployment & Custom Rule Engineering with Snort | `Snort`, `Netcat`, `Iptables`, `NETinVM` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/ids-snort/) |
 | **Seguridad Web** | bWAPP Web Vulnerability Assessment & Defensive Analysis (OWASP Top 10) | `bWAPP`, `Bee-Box`, `Burp Suite`, `PHP`, `MySQL` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/reports/web-vuln-assessment/) |
