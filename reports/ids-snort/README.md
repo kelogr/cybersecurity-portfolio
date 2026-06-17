@@ -1,0 +1,90 @@
+# 🛡️ Network IDS Deployment & Custom Rule Engineering with Snort
+
+| Campo | Descripción |
+| :--- | :--- |
+| **Tecnologías / Herramientas** | Snort, Netcat (`nc`), Iptables, NETinVM |
+| **Tags / Keywords** | #IDS #Snort #DefensiveSecurity #BlueTeam #NetworkSecurity #PCRE |
+| **Categorías** | Análisis de Amenazas, Seguridad en Redes |
+| **Autor** | Kevin López Granado |
+
+---
+
+## 🛡️ Network IDS Deployment & Custom Rule Engineering with Snort - [[ACADEMIC] - [Intermediate]]
+
+### 🎯 Objetivo
+Reforzar los conocimientos prácticos relativos a los mecanismos de defensa en redes y el uso de sistemas de detección de intrusos (IDS) mediante el despliegue de Snort. El propósito es monitorizar cada una de las interfaces del cortafuegos (`FW`) en una arquitectura de tres legados (Red Interna, DMZ e Internet) para detectar intentos de explotación de vulnerabilidades en servicios críticos y conexiones anómalas basadas en firmas personalizadas.
+
+### 🛠️ Prerrequisitos
+* Entorno virtual **NETinVM** operativo.
+* Modificar temporalmente la política del cortafuegos (`Iptables`) a una política permisiva para asegurar que no se bloqueen las pruebas de tráfico.
+* Creación de un fichero de configuración específico para las reglas personalizadas (`pruebas_snort.conf`).
+
+![Diseño arquitectura de tres legados](/assets/img/posts/hardening_perimetral/image.png)*Figura 1: Diseño arquitectura de tres legados.*
+
+### 🚀 Ejecución
+
+#### 1. Definición de Variables de Red
+Para facilitar la creación de reglas y mejorar su entendimiento dentro del archivo `pruebas_snort.conf`, se definen las variables correspondientes al direccionamiento IP de la infraestructura de la organización:
+* **Red Interna (`RED_LOCAL`)**: `10.5.2.0/24`
+* **Zona Desmilitarizada (`RED_DMZ`)**: `10.5.1.0/24`
+* **Servidor Web DMZ (`SERV_WEB`)**: `10.5.1.10`
+* **Tráfico Externo (`RED_EXTERNA`)**: Todo lo que no sea ni red local ni DMZ.
+
+```bash
+# Definición de variables en pruebas_snort.conf
+var RED_LOCAL 10.5.2.0/24
+var RED_DMZ 10.5.1.0/24
+var SERV_WEB 10.5.1.10
+var RED_EXTERNA ![$RED_LOCAL,$RED_DMZ]
+```
+
+#### 2. Detección de Acceso al Manager de Apache Tomcat
+Se añade una regla para detectar el método HTTP `GET` apuntando a la ruta de administración `/manager/html` en los primeros caracteres de todos los paquetes HTTP (puerto `8180`) dirigidos desde Internet al servidor WEB.  
+
+* **Mensaje de alerta:** `Detectado acceso al Manager de Tomcat`
+* **Regla Snort:**
+```bash
+alert tcp $RED_EXTERNA any -> $SERV_WEB 8180 (msg:"Detectado acceso al Manager de Tomcat"; content:"GET /manager/html"; depth:18; sid:1000001; rev:1;)
+```
+
+#### 3. Detección de Exploit (Application Deployer) en Apache Tomcat
+Regla diseñada para detectar un intento de ejecución de un exploit en el servidor Tomcat. Se identifican comandos `PUT` en los primeros caracteres y se verifica que, dentro de los siguientes 256 caracteres, el paquete HTTP (puerto `8180`) contenga alguno de los payloads maliciosos indicados (`/manager/deploy/?path=/`, `WEB-INF` o `metasploit`).  
+
+* **Mensaje de alerta:** `Detectado exploit de Apache Tomcat Manager Application Deployer`
+* **Regla Snort:**
+```bash
+alert tcp $RED_EXTERNA any -> $SERV_WEB 8180 (msg:"Detectado exploit de Apache Tomcat Manager Application Deployer"; content:"PUT"; depth:3; pcre:"/^(PUT).{0,256}(\/manager\/deploy\/\?path\=\/|WEB\-INF|metasploit)/s"; sid:1000002; rev:1;)
+```
+
+#### 4. Monitorización de Tráfico de Botnets (IRC)
+Regla encargada de mitigar la exposición a ataques de tipo botnet interceptando comandos de comunicación IRC (`JOIN`, `NICK` y `SERVER`) originados desde la red local al conectarse a servicios de IRC entre los puertos `6800` y `7000` en máquinas de Internet.  
+
+* **Mensaje de alerta:** `Detectada conexión a servidores IRC`
+* **Regla Snort:**
+```bash
+alert tcp $RED_LOCAL any -> $RED_EXTERNA 6800:7000 (msg:"Detectada conexión a servidores IRC"; pcre:"/(JOIN|NICK|SERVER)/"; sid:1000003; rev:1;)
+```
+
+---
+
+#### 📸 Evidencias de la Configuración
+
+Para garantizar la integridad y la correcta sintaxis de las directivas en el entorno de desarrollo, se documenta el estado final del fichero de configuración personalizado:
+
+![Configuración archivo IDS Snort pruebas_snort.conf (I)](/assets/img/posts/ids_snort/ids_snort_1.png)
+*Figura 2: Configuración archivo IDS Snort pruebas_snort.conf (I).*
+
+![Configuración archivo IDS Snort pruebas_snort.conf (II)](/assets/img/posts/ids_snort/ids_snort_2.png)
+*Figura 3: Configuración archivo IDS Snort pruebas_snort.conf (II).*
+
+---
+
+### 📝 Resumen
+En esta actividad se configuró un Sistema de Detección de Intrusos (IDS) basado en Snort directamente sobre el nodo del cortafuegos (`FW`), logrando visibilidad completa de los tres segmentos de red corporativos. Mediante el diseño de firmas personalizadas que emplean tanto inspección de firmas directas (`content`, `depth`) como patrones dinámicos complejos mediante expresiones regulares (`pcre`), se ha implementado un mecanismo defensivo eficaz frente a fases de enumeración web, despliegue de exploits y balizamiento por canales de Command & Control (C2).
+
+---
+
+### 💡 Conclusiones
+* **Defensa en Profundidad:** Integrar un motor de inspección profunda de paquetes (DPI) en el cortafuegos complementa la seguridad perimetral estática, permitiendo auditar la legitimidad del tráfico en la capa de aplicación.  
+* **Optimización del Motor de Firmas:** Limitar la evaluación de cadenas mediante modificadores de longitud (`depth`) previene la degradación del rendimiento de la CPU ante ataques de denegación de servicio que intenten explotar el coste computacional de las expresiones regulares.  
+* **Detección Temprana de Persistencia:** El análisis predictivo de firmas anómalas en protocolos como IRC (`JOIN`/`NICK`) resulta crítico para interceptar actividades sospechosas de botnets antes de que se inicien movimientos laterales o exfiltración de información sensible.  

@@ -1,22 +1,15 @@
----
-layout: page
-title: Hardening Perimetral con Iptables
-categories: [Análisis de Amenazas]
-tags: [Linux Iptables, Firewall, Network-security]
----
-
-# Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ
+# 🛡️ Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ
 
 | Campo | Descripción |
 | :--- | :--- |
 | **Tecnologías / Herramientas** | Linux Iptables, NETinVM, Netcat (`nc`), KWrite  |
 | **Tags / Keywords** | #FirewallHardening, #Iptables, #DMZ-Isolation, #NetworkSecurity, #BlueTeam |
-| **Categorías** | Análisis de Amenazas |
+| **Categorías** | Análisis de Amenazas, Seguridad en Redes |
 | **Autor** | Kevin López Granado  |
 
 ---
 
-## Hardening Perimetral en Redes Multizona - [ACADEMIC - Intermediate]
+## 🛡️ Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ - [ACADEMIC - Intermediate]
 
 ### 🎯 Objetivo
 
@@ -33,7 +26,7 @@ El cortafuegos central (`fw`) interconecta los segmentos utilizando tres interfa
 * **`eth1`**: Interfaz conectada a la DMZ (IP: `10.5.1.254`).
 * **`eth2`**: Interfaz conectada a la red interna corporativa (IP: `10.5.2.254`).
 
-![alt text](images/image.png)
+![Diseño arquitectura de tres legados](/assets/img/posts/hardening_perimetral/image.png)*Figura 1: Diseño arquitectura de tres legados.*
 
 ---
 

@@ -1,7 +1,3 @@
----
-layout: home
----
-
 # ¡Hola! Soy Kevin López 🛡️✨
 
 ¡Bienvenido a mi portafolio de Ciberseguridad! Soy **Ingeniero en Redes de Telecomunicaciones** y actualmente estoy cursando un **Máster en Ciberseguridad**. Mi enfoque profesional está completamente orientado a la seguridad defensiva (**Blue Team**), el análisis de seguridad (SOC) y la arquitectura de redes seguras.
@@ -22,11 +18,13 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 
 ## 📊 Matriz de Proyectos y Actividades
 
-| Categoría / Asignatura | Actividad / Lab | Herramientas | Nivel | Documentación |
-| :--- | :--- | :--- | :--- | :--- |
-| **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](./Academic_Projects/Redes_y_Analisis_Amenazas/Actividad_1_Mecanismos_Defensa/) |
-| **Análisis de Amenazas** | Network IDS Deployment & Custom Rule Engineering with Snort | `Snort`, `Netcat`, `Iptables`, `NETinVM` | Intermediate | [📄 Ver Lab]() |
-| **Seguridad Web** | bWAPP Web Vulnerability Assessment & Defensive Analysis | `bWAPP`, `Bee-Box`, `Burp Suite`, `PHP`, `MySQL` | Beginner | [📄 Ver Lab]() |
+| **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/hardening-perimetral-iptables/) |
+| **Análisis de Amenazas** | Network IDS Deployment & Custom Rule Engineering with Snort | `Snort`, `Netcat`, `Iptables`, `NETinVM` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/ids-snort/) |
+| **Seguridad Web** | bWAPP Web Vulnerability Assessment & Defensive Analysis (OWASP Top 10) | `bWAPP`, `Bee-Box`, `Burp Suite`, `PHP`, `MySQL` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/reports/web-vuln-assessment/) |
+| **Seguridad en Redes** | Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark | `Nmap`, `Wireshark`, `Samba`, `ProFTPD`, `UnrealIRCd` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/reports/net-reco-vuln-nmap-wireshark/) |
+| **Penetration Testing** | Elasticsearch Remote Code Execution & Post-Exploitation with Metasploit | `Metasploit`, `Meterpreter`, `Elasticsearch`, `Nmap` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/metasploit/) |
+| **Infraestructura** | Hardening de Active Directory siguiendo Guías CCN-STIC (ENS) | `Windows Server`, `AD`, `GPO`, `CCN-STIC` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/hardening/) |
+| **Análisis de Vulnerabilidades** | Detección y Análisis de Vulnerabilidades en Software de Terceros | `OWASP Dependency-Check`, `CVE`, `NVD` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/reports/owasp-dc/) |
 
 ---
 
