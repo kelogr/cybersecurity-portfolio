@@ -20,13 +20,13 @@ A través de este repositorio y mis proyectos individuales, voy a ir documentand
 
 | Categoría / Asignatura | Actividad / Lab | Herramientas | Nivel | Documentación |
 | :--- | :--- | :--- | :--- | :--- |
-| **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/hardening-perimetral-iptables/) |
-| **Análisis de Amenazas** | Network IDS Deployment & Custom Rule Engineering with Snort | `Snort`, `Netcat`, `Iptables`, `NETinVM` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/ids-snort/) |
-| **Seguridad Web** | bWAPP Web Vulnerability Assessment & Defensive Analysis (OWASP Top 10) | `bWAPP`, `Bee-Box`, `Burp Suite`, `PHP`, `MySQL` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/reports/web-vuln-assessment/) |
-| **Seguridad en Redes** | Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark | `Nmap`, `Wireshark`, `Samba`, `ProFTPD`, `UnrealIRCd` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/reports/net-reco-vuln-nmap-wireshark/) |
-| **Penetration Testing** | Elasticsearch Remote Code Execution & Post-Exploitation with Metasploit | `Metasploit`, `Meterpreter`, `Elasticsearch`, `Nmap` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/metasploit/) |
-| **Infraestructura** | Hardening de Active Directory siguiendo Guías CCN-STIC (ENS) | `Windows Server`, `AD`, `GPO`, `CCN-STIC` | Intermediate | [📄 Ver Lab](/cybersecurity-portfolio/reports/hardening/) |
-| **Análisis de Vulnerabilidades** | Detección y Análisis de Vulnerabilidades en Software de Terceros | `OWASP Dependency-Check`, `CVE`, `NVD` | Beginner | [📄 Ver Lab](/cybersecurity-portfolio/reports/owasp-dc/) |
+| **Análisis de Amenazas** | Hardening Perimetral y Gestión de Reglas de Estado con Linux Iptables en Arquitecturas DMZ | `Iptables`, `Netcat`, `NETinVM`, `KWrite` | Intermediate | [📄 Ver Lab](/reports/hardening-perimetral-iptables/) |
+| **Análisis de Amenazas** | Network IDS Deployment & Custom Rule Engineering with Snort | `Snort`, `Netcat`, `Iptables`, `NETinVM` | Intermediate | [📄 Ver Lab](/reports/ids-snort/) |
+| **Seguridad Web** | bWAPP Web Vulnerability Assessment & Defensive Analysis (OWASP Top 10) | `bWAPP`, `Bee-Box`, `Burp Suite`, `PHP`, `MySQL` | Beginner | [📄 Ver Lab](/reports/web-vuln-assessment/) |
+| **Seguridad en Redes** | Network Reconnaissance & Vulnerability Assessment with Nmap and Wireshark | `Nmap`, `Wireshark`, `Samba`, `ProFTPD`, `UnrealIRCd` | Beginner | [📄 Ver Lab](/reports/net-reco-vuln-nmap-wireshark/) |
+| **Penetration Testing** | Elasticsearch Remote Code Execution & Post-Exploitation with Metasploit | `Metasploit`, `Meterpreter`, `Elasticsearch`, `Nmap` | Intermediate | [📄 Ver Lab](/reports/metasploit/) |
+| **Infraestructura** | Hardening de Active Directory siguiendo Guías CCN-STIC (ENS) | `Windows Server`, `AD`, `GPO`, `CCN-STIC` | Intermediate | [📄 Ver Lab](/reports/hardening/) |
+| **Análisis de Vulnerabilidades** | Detección y Análisis de Vulnerabilidades en Software de Terceros | `OWASP Dependency-Check`, `CVE`, `NVD` | Beginner | [📄 Ver Lab](/reports/owasp-dc/) |
 
 ---
 
